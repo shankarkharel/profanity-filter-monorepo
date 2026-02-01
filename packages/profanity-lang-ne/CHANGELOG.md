@@ -1,5 +1,18 @@
 # @your-scope/profanity-lang-ne
 
+## 3.0.0
+
+### Major Changes
+
+- fixes
+- 5c062c8: sd
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies [5c062c8]
+  - @shankarkharel/profanity-core@3.0.0
+
 ## 2.0.0
 
 ### Major Changes

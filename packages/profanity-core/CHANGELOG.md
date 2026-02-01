@@ -1,5 +1,12 @@
 # @your-scope/profanity-core
 
+## 3.0.0
+
+### Major Changes
+
+- fixes
+- 5c062c8: sd
+
 ## 2.0.0
 
 ### Major Changes

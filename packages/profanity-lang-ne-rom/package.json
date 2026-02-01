@@ -1,6 +1,6 @@
 {
   "name": "@shankarkharel/profanity-lang-ne-rom",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,7 @@
     "lint": "echo \"(add eslint later)\""
   },
   "dependencies": {
-    "@shankarkharel/profanity-core": "2.0.0"
+    "@shankarkharel/profanity-core": "3.0.0"
   },
   "publishConfig": {
     "access": "public"

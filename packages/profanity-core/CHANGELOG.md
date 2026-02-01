@@ -1,5 +1,11 @@
 # @your-scope/profanity-core
 
+## 7.0.0
+
+### Major Changes
+
+- asas
+
 ## 6.0.0
 
 ### Major Changes

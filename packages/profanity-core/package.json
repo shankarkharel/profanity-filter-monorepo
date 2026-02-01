@@ -1,6 +1,6 @@
 {
   "name": "@shankarkharel/profanity-core",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Core profanity moderation engine (language pack based).",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",

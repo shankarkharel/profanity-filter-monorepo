@@ -1,15 +1,14 @@
 {
   "name": "@shankarkharel/profanity-lang-ne-rom",
-  "version": "5.0.0",
-  "main": "dist/index.js",
-  "require": "./dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "6.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.js"
     }
   },
   "files": [
@@ -23,7 +22,7 @@
     "lint": "echo \"(add eslint later)\""
   },
   "dependencies": {
-    "@shankarkharel/profanity-core": "5.0.0"
+    "@shankarkharel/profanity-core": "6.0.0"
   },
   "publishConfig": {
     "access": "public"

@@ -1,5 +1,12 @@
 # @your-scope/profanity-core
 
+## 8.0.0
+
+### Major Changes
+
+- asasa
+- sdsd
+
 ## 7.0.0
 
 ### Major Changes

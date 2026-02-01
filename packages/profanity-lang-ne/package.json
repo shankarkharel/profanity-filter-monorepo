@@ -1,15 +1,14 @@
 {
   "name": "@shankarkharel/profanity-lang-ne",
-  "version": "6.0.0",
-  "main": "dist/index.js",
-  "require": "./dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "7.0.0",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
     }
   },
   "files": [
@@ -23,7 +22,7 @@
     "lint": "echo \"(add eslint later)\""
   },
   "dependencies": {
-    "@shankarkharel/profanity-core": "7.0.0"
+    "@shankarkharel/profanity-core": "8.0.0"
   },
   "publishConfig": {
     "access": "public"

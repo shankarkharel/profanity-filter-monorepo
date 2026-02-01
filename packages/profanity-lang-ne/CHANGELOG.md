@@ -1,5 +1,18 @@
 # @your-scope/profanity-lang-ne
 
+## 7.0.0
+
+### Major Changes
+
+- asasa
+- sdsd
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @shankarkharel/profanity-core@8.0.0
+
 ## 6.0.0
 
 ### Major Changes

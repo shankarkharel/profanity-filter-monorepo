@@ -1,6 +1,6 @@
 {
   "name": "@your-scope/profanity-core",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Core profanity moderation engine (language pack based).",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -12,16 +12,17 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
-"scripts": {
-  "build": "tsup src/index.ts --format cjs,esm --dts --clean",
-  "test": "yarn build && node --test dist",
-  "lint": "echo \"(add eslint later)\""
-},
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "yarn build && node --test dist",
+    "lint": "echo \"(add eslint later)\""
+  },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {},
   "license": "MIT"
 }
-

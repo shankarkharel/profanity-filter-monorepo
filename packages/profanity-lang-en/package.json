@@ -1,6 +1,6 @@
 {
   "name": "@your-scope/profanity-lang-en",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,16 +11,20 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-   "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "test": "echo \"no tests\"",
     "lint": "echo \"(add eslint later)\""
   },
   "dependencies": {
-    "@your-scope/profanity-core": "0.1.0"
+    "@your-scope/profanity-core": "1.0.0"
   },
-    "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "license": "MIT"

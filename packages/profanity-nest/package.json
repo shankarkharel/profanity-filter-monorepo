@@ -1,8 +1,9 @@
 {
   "name": "@shankarkharel/profanity-nest",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "NestJS module for @your-scope/profanity-core",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
+  "require": "./dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -22,7 +23,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
-    "@shankarkharel/profanity-core": "4.0.0"
+    "@shankarkharel/profanity-core": "5.0.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^9 || ^10"

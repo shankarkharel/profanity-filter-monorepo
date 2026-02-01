@@ -1,5 +1,16 @@
 # @your-scope/profanity-lang-en
 
+## 5.0.0
+
+### Major Changes
+
+- sdsd
+
+### Patch Changes
+
+- Updated dependencies
+  - @shankarkharel/profanity-core@5.0.0
+
 ## 4.0.0
 
 ### Major Changes

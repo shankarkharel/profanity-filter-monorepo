@@ -1,0 +1,27 @@
+{
+  "name": "@your-scope/profanity-lang-en",
+  "version": "0.1.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+   "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "echo \"no tests\"",
+    "lint": "echo \"(add eslint later)\""
+  },
+  "dependencies": {
+    "@your-scope/profanity-core": "0.1.0"
+  },
+    "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

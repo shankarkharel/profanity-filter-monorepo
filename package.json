@@ -1,0 +1,33 @@
+{
+  "name": "profanity-filter-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint",
+    "build": "yarn workspaces run build",
+    "clean": "rimraf packages/*/dist",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "yarn build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8",
+    "@swc/core": "^1.15.11",
+    "papaparse": "^5.5.3",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

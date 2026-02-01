@@ -1,0 +1,2 @@
+export const PROFANITY_OPTIONS = Symbol("PROFANITY_OPTIONS");
+export const PROFANITY_ENGINE = Symbol("PROFANITY_ENGINE");

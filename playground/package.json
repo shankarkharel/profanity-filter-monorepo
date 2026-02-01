@@ -1,0 +1,17 @@
+{
+  "name": "playground",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@your-scope/profanity-core": "workspace:*",
+    "@your-scope/profanity-lang-en": "workspace:*",
+    "@your-scope/profanity-lang-ne": "workspace:*",
+    "@your-scope/profanity-lang-ne-rom": "workspace:*"
+  },
+    "publishConfig": {
+    "access": "public"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "license": "MIT"
+}

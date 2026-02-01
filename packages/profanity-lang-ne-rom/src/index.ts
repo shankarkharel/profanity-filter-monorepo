@@ -1,4 +1,4 @@
-import type { LanguagePack, TermEntry } from "@your-scope/profanity-core";
+import type { LanguagePack, TermEntry } from "@shankarkharel/profanity-core";
 import { NE_RO_WORDS } from "./ne";
 
 const OVERRIDES: Record<string, Partial<TermEntry>> = {

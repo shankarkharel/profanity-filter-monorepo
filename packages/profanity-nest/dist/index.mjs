@@ -5,7 +5,7 @@ var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "sy
 
 // src/profanity.module.ts
 import { Module } from "@nestjs/common";
-import { ProfanityEngine as ProfanityEngine2 } from "@your-scope/profanity-core";
+import { ProfanityEngine as ProfanityEngine2 } from "@shankarkharel/profanity-core";
 
 // src/constants.ts
 var PROFANITY_OPTIONS = /* @__PURE__ */ Symbol("PROFANITY_OPTIONS");

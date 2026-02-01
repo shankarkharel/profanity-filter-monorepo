@@ -1,5 +1,5 @@
 {
-  "name": "@your-scope/profanity-lang-en",
+  "name": "@shankarkharel/profanity-lang-en",
   "version": "1.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -22,7 +22,7 @@
     "lint": "echo \"(add eslint later)\""
   },
   "dependencies": {
-    "@your-scope/profanity-core": "1.0.0"
+    "@shankarkharel/profanity-core": "1.0.0"
   },
   "publishConfig": {
     "access": "public"

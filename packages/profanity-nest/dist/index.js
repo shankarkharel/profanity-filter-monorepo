@@ -30,7 +30,7 @@ module.exports = __toCommonJS(index_exports);
 
 // src/profanity.module.ts
 var import_common2 = require("@nestjs/common");
-var import_profanity_core = require("@your-scope/profanity-core");
+var import_profanity_core = require("@shankarkharel/profanity-core");
 
 // src/constants.ts
 var PROFANITY_OPTIONS = /* @__PURE__ */ Symbol("PROFANITY_OPTIONS");

@@ -1,4 +1,4 @@
-import type { LanguagePack, TermEntry } from "@your-scope/profanity-core";
+import type { LanguagePack, TermEntry } from "@shankarkharel/profanity-core";
 import { EN_WORDS } from "./en"; // <-- put your big array in src/words.ts
 
 // Optional: override a few terms you care about (severity/category/match)

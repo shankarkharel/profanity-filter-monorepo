@@ -1,4 +1,4 @@
-import { LanguagePack } from '@your-scope/profanity-core';
+import { LanguagePack } from '@shankarkharel/profanity-core';
 
 declare const en: LanguagePack;
 

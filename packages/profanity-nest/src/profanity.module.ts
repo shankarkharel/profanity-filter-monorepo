@@ -1,5 +1,5 @@
 import { DynamicModule, Module, Provider } from "@nestjs/common";
-import { ProfanityEngine } from "@your-scope/profanity-core";
+import { ProfanityEngine } from "@shankarkharel/profanity-core";
 import { PROFANITY_ENGINE, PROFANITY_OPTIONS } from "./constants.js";
 import type { ProfanityModuleOptions } from "./interfaces.js";
 import { ProfanityService } from "./profanity.service.js";

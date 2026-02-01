@@ -1,5 +1,5 @@
 import { Inject, Injectable } from "@nestjs/common";
-import type { ProfanityEngine } from "@your-scope/profanity-core";
+import type { ProfanityEngine } from "@shankarkharel/profanity-core";
 import { PROFANITY_ENGINE } from "./constants.js";
 
 @Injectable()

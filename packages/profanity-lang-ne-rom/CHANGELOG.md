@@ -1,5 +1,16 @@
 # @your-scope/profanity-lang-ne-rom
 
+## 2.0.0
+
+### Major Changes
+
+- v2
+
+### Patch Changes
+
+- Updated dependencies
+  - @shankarkharel/profanity-core@2.0.0
+
 ## 1.0.0
 
 ### Major Changes

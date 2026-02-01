@@ -1,5 +1,16 @@
 # @your-scope/profanity-nest
 
+## 4.0.0
+
+### Major Changes
+
+- sds
+
+### Patch Changes
+
+- Updated dependencies
+  - @shankarkharel/profanity-core@4.0.0
+
 ## 3.0.0
 
 ### Major Changes

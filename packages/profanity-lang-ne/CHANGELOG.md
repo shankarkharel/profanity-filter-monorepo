@@ -1,5 +1,17 @@
 # @your-scope/profanity-lang-ne
 
+## 4.0.0
+
+### Major Changes
+
+- sds
+- vhanags
+
+### Patch Changes
+
+- Updated dependencies
+  - @shankarkharel/profanity-core@4.0.0
+
 ## 3.0.0
 
 ### Major Changes

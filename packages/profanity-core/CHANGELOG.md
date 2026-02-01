@@ -1,5 +1,11 @@
 # @your-scope/profanity-core
 
+## 4.0.0
+
+### Major Changes
+
+- sds
+
 ## 3.0.0
 
 ### Major Changes
